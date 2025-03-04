@@ -1,4 +1,5 @@
 //Main Activity
+
 package com.example.navigation
 
 import android.os.Bundle
@@ -42,6 +43,7 @@ fun DefaultPreview() {
 }
 
 //App Screens
+
 package com.example.navigation.ui.theme.Navegacion
 
 sealed class AppScreens(val route: String) {
@@ -50,6 +52,7 @@ sealed class AppScreens(val route: String) {
 }
 
 //App Navigation
+
 package com.example.navigation.ui.theme.Navegacion
 
 import androidx.compose.material3.ExperimentalMaterial3Api
@@ -82,6 +85,7 @@ val navController = rememberNavController()
 
 
 //First Screen
+
 package com.example.navegacion.ui.theme.screens
 
 import android.annotation.SuppressLint
@@ -131,6 +135,7 @@ fun BodyContent(navController: NavController){
 }
 
 //Second Screen
+
 package com.example.navegacion.ui.theme.screens
 
 import android.annotation.SuppressLint
